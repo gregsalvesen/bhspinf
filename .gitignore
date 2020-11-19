@@ -1,0 +1,15 @@
+*.pyc
+._*.py
+*.log
+*.out
+*.aux
+*.blg
+*.bbl
+*.fdb_latexmk
+*.fls
+*.dvi
+*.synctex.gz
+*Notes.bib
+auto
+*.tar
+.ipynb_checkpoints
