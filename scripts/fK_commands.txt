@@ -1,0 +1,42 @@
+Calls to convert_fr2fK.py from a bash terminal for each source:
+===============================================================
+
+# LMC X-1
+```bash
+python scripts/convert_fr2fK.py data/CF/CF_results_LMCX1.p --Nn 18 --NM 18 --ND 18 --Ni 18 --K_max 25 --r_min 0 --r_max 5 --Nproc 2 --lbounds 0 --lfilter 0 --lunit 0 --lpos 0 --rpdisc CDF --constrainPos --constrainKBnds --constrainUnitarity --r_dGR 25 --fout data/fK/fK_LMCX1.h5
+```
+
+# 4U 1543-47
+```bash
+ python scripts/convert_fr2fK.py data/CF/CF_results_U1543.p --Nn 32 --NM 18 --ND 18 --Ni 18 --K_max 600 --r_min 0.5 --r_max 5 --Nproc 2 --lbounds 0 --lfilter 1 --lunit 1 --lpos 0 --rpdisc CDF --constrainPos --constrainKBnds --constrainUnitarity --r_dGR 25 --fout data/fK/fK_U1543.h5
+```
+
+# GRO J1655-40
+```bash
+ python scripts/convert_fr2fK.py data/CF/CF_results_J1655.p --Nn 36 --NM 18 --ND 18 --Ni 18 --K_max 800 --r_min 1 --r_max 6 --Nproc 2 --lbounds 5 --lfilter 1 --lunit 1 --lpos 1 --rpdisc CDF --r_dGR 25 --fout data/fK/fK_J1655.h5
+```
+
+# XTE J1550-564
+```bash
+python scripts/convert_fr2fK.py data/CF/CF_results_J1550.p --Nn 164 --NM 18 --ND 18 --Ni 18 --K_min 0 --K_max 1250 --r_min 1 --r_max 9 --Nproc 48 --lbounds 0 --lfilter 0 --lunit 0 --lpos 1 --rpdisc nodes --constrainKBnds --constrainUnitarity --r_dGR 25 --fout data/fK/fK_J1550.h5
+```
+
+# M33 X-7
+```bash
+python scripts/convert_fr2fK.py data/CF/CF_results_M33X7.p --Nn 24 --NM 18 --ND 18 --Ni 18 --K_min 0.005 --K_max 0.0325 --r_min 1.5 --r_max 4.5 --Nproc 2 --lbounds 0 --lfilter 1 --lunit 0 --lpos 2 --rpdisc CDF --constrainKBnds --constrainUnitarity --r_dGR 25 --fout data/fK/fK_M33X7.h5
+```
+
+# LMC X-3
+```bash
+ python scripts/convert_fr2fK.py data/CF/CF_results_LMCX3.p --Nn 28 --NM 18 --ND 18 --Ni 18 --K_min 3 --K_max 6 --r_min 3 --r_max 8 --Nproc 2 --lbounds 0 --lfilter 10 --lunit 0 --lpos 10 --rpdisc nodes --constrainKBnds --constrainUnitarity --r_dGR 25 --fout data/fK/fK_LMCX3.h5
+```
+
+# H1743-322
+```bash
+ python scripts/convert_fr2fK.py data/CF/CF_results_H1743.p --Nn 36 --NM 18 --ND 18 --Ni 18 --K_min 0 --K_max 250 --r_min 0 --r_max 10 --Nproc 48 --lbounds 0 --lfilter 0 --lunit 0 --lpos 10 --rpdisc nodes --fixMDi --constrainKBnds --constrainUnitarity --smoothFr --r_dGR 25 --fout data/fK/fK_H1743.h5
+```
+
+# A0620-00
+```bash
+ python scripts/convert_fr2fK.py data/CF/CF_results_A0620.p --Nn 24 --NM 18 --ND 18 --Ni 18 --K_min 15000 --K_max 20000 --r_min 3 --r_max 8 --Nproc 2 --lbounds 0 --lfilter 1e-1 --lunit 0 --lpos 0 --rpdisc nodes --constrainKBnds --constrainUnitarity --constrainPos --r_dGR 25 --fout data/fK/fK_A0620.h5
+```
